@@ -1,0 +1,13 @@
+
+            [core]
+                    excludesFile = ~/.gitignore
+                    quotepath = off
+                    checkStat = minimal
+            [pull]
+                    rebase = false
+            [user]
+                    name = THOBO GABOIPEWE
+                    email = gt20001016@studentmail.biust.ac.bw
+            [credential]
+                    helper = "!f() { echo \"username=$(cat /psb/tokens/.github)\npassword=\"; }; f"
+        
